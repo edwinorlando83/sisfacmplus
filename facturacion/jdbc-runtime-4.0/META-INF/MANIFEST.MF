@@ -1,0 +1,99 @@
+Manifest-Version: 1.0
+Export-Package: org.glassfish.jdbcruntime;uses:="javax.naming,org.glas
+ sfish.api.naming,javax.sql,org.jvnet.hk2.annotations,com.sun.logging,
+ org.glassfish.jdbc.config,org.glassfish.external.probe.provider,com.s
+ un.enterprise.connectors,com.sun.appserv.connectors.internal.api,com.
+ sun.enterprise.resource.pool.monitor,com.sun.enterprise.config.server
+ beans,org.glassfish.resourcebase.resources.api,com.sun.enterprise.res
+ ource.pool,javax.inject,org.jvnet.hk2.config,org.glassfish.connectors
+ .config,com.sun.enterprise.deployment,com.sun.enterprise.connectors.u
+ til,org.glassfish.jdbcruntime.service";version="4.0.0",org.glassfish.
+ jdbcruntime.service;uses:="javax.naming,javax.resource,com.sun.enterp
+ rise.connectors.service,com.sun.enterprise.connectors,javax.security.
+ auth,org.jvnet.hk2.annotations,org.glassfish.resourcebase.resources.n
+ aming,org.glassfish.resourcebase.resources.api,com.sun.enterprise.dep
+ loyment,javax.sql,javax.resource.spi,com.sun.enterprise.connectors.ut
+ il,javax.inject,org.glassfish.internal.api,com.sun.enterprise.config.
+ serverbeans,org.glassfish.jdbc.config,com.sun.appserv.connectors.inte
+ rnal.api";version="4.0.0",org.glassfish.jdbc.util;uses:="com.sun.logg
+ ing,org.glassfish.jdbc.config,com.sun.enterprise.connectors,com.sun.a
+ ppserv.connectors.internal.api,com.sun.enterprise.config.serverbeans,
+ org.glassfish.resourcebase.resources.api,javax.sql,com.sun.enterprise
+ .connectors.util";version="4.0.0"
+Class-Path: connectors-runtime.jar flashlight-framework.jar asm-all-re
+ packaged.jar monitoring-core.jar javax.resource-api.jar javax.transac
+ tion-api.jar common-util.jar deployment-common.jar deployment-javaee-
+ core.jar javax.enterprise.deploy-api.jar kernel.jar security-services
+ .jar logging.jar api-exporter.jar core.jar hk2-locator.jar javax.inje
+ ct.jar cglib.jar hk2-utils.jar javax.inject.jar glassfish-ee-api.jar 
+ javax.servlet-api.jar connectors-internal-api.jar admin-util.jar jack
+ son-core-asl.jar resources-connector.jar nucleus-resources.jar glassf
+ ish-api.jar scattered-archive-api.jar nucleus-grizzly-all.jar grizzly
+ -framework.jar grizzly-rcm.jar grizzly-portunif.jar grizzly-http.jar 
+ grizzly-http-server.jar grizzly-config.jar transaction-internal-api.j
+ ar javax.persistence.jar internal-api.jar dol.jar javax.annotation-ap
+ i.jar javax.ejb-api.jar annotation-framework.jar config-api.jar conta
+ iner-common.jar glassfish-naming.jar javax.mail.jar activation.jar ha
+ -api.jar security.jar ssl-impl.jar ldapbp-repackaged.jar security-ee.
+ jar javax.security.auth.message-api.jar javax.security.jacc-api.jar j
+ aspic.provider.framework.jar libpam4j-repackaged.jar gf-connectors-co
+ nnector.jar ejb-internal-api.jar management-api.jar javamail-connecto
+ r.jar javax.mail-api.jar gmbal.jar pfl-basic.jar pfl-tf.jar pfl-asm.j
+ ar pfl-dynamic.jar pfl-basic-tools.jar pfl-tf-tools.jar javax.interce
+ ptor-api.jar glassfish.jar simple-glassfish-api.jar jdbc-config.jar h
+ k2.jar hk2-api.jar osgi-resource-locator.jar config-types.jar hk2-con
+ fig.jar tiger-types.jar bean-validator.jar hk2-runlevel.jar class-mod
+ el.jar
+Built-By: java_re
+Tool: Bnd-1.15.0
+Bundle-Name: JDBC Runtime Module
+Created-By: Apache Maven Bundle Plugin
+probe-provider-class-names: org.glassfish.jdbc.pool.monitor.JdbcConnPo
+ olProbeProvider,org.glassfish.jdbc.pool.monitor.JdbcConnPoolAppProbeP
+ rovider
+DynamicImport-Package: org.glassfish.flashlight.provider
+Build-Jdk: 1.7.0_09
+Bundle-Version: 4.0.0
+Bnd-LastModified: 1368585801442
+Bundle-ManifestVersion: 2
+Bundle-License: http://glassfish.java.net/nonav/public/CDDL+GPL.html
+Bundle-Description: Java.net - The Source for Java Technology Collabor
+ ation
+Bundle-SymbolicName: org.glassfish.main.jdbc.runtime
+Import-Package: com.sun.appserv.connectors.internal.api;version="[4.0,
+ 5)",com.sun.appserv.jdbc;version="[4.0,5)",com.sun.enterprise.config.
+ serverbeans;version="[4.0,5)",com.sun.enterprise.connectors;version="
+ [4.0,5)",com.sun.enterprise.connectors.service;version="[4.0,5)",com.
+ sun.enterprise.connectors.util;version="[4.0,5)",com.sun.enterprise.d
+ eployment;version="[4.0,5)",com.sun.enterprise.deployment.annotation.
+ context;version="[4.0,5)",com.sun.enterprise.deployment.annotation.ha
+ ndlers;version="[4.0,5)",com.sun.enterprise.resource;version="[4.0,5)
+ ",com.sun.enterprise.resource.pool;version="[4.0,5)",com.sun.enterpri
+ se.resource.pool.monitor;version="[4.0,5)",com.sun.enterprise.resourc
+ e.pool.waitqueue;version="[4.0,5)",com.sun.enterprise.transaction.api
+ ;version="[4.0,5)",com.sun.enterprise.transaction.config;version="[4.
+ 0,5)",com.sun.enterprise.transaction.spi;version="[4.0,5)",com.sun.en
+ terprise.util;version="[4.0,5)",com.sun.enterprise.util.i18n;version=
+ "[4.0,5)",com.sun.logging;version="[4.0,5)",javax.annotation.sql;vers
+ ion="[1.2,2)",javax.inject;version="[1.0,2)",javax.interceptor;versio
+ n="[1.2,2)",javax.naming,javax.resource;version="[1.7,2)",javax.resou
+ rce.spi;version="[1.7,2)",javax.resource.spi.security;version="[1.7,2
+ )",javax.security.auth,javax.sql,javax.transaction.xa;version="[1.2,2
+ )",org.glassfish.apf;version="[4.0,5)",org.glassfish.api.admin.config
+ ;version="[4.0,5)",org.glassfish.api.naming;version="[4.0,5)",org.gla
+ ssfish.connectors.config;version="[4.0,5)",org.glassfish.deployment.c
+ ommon;version="[4.0,5)",org.glassfish.external.probe.provider;version
+ ="[3.2,4)",org.glassfish.external.probe.provider.annotations;version=
+ "[3.2,4)",org.glassfish.external.statistics;version="[3.2,4)",org.gla
+ ssfish.external.statistics.annotations;version="[3.2,4)",org.glassfis
+ h.external.statistics.impl;version="[3.2,4)",org.glassfish.gmbal;vers
+ ion="[4.0,5)",org.glassfish.hk2.api;version="[2.1,3)",org.glassfish.i
+ nternal.api;version="[4.0,5)",org.glassfish.javaee.services;version="
+ [4.0,5)",org.glassfish.jdbc.config;version="[4.0,5)",org.glassfish.jd
+ bc.util;version="[4.0,5)",org.glassfish.resourcebase.resources.api,or
+ g.glassfish.resourcebase.resources.naming,org.glassfish.resourcebase.
+ resources.util,org.jvnet.hk2.annotations;version="[2.1,3)",org.jvnet.
+ hk2.config;version="[2.1,3)",org.jvnet.hk2.config.types;version="[2.1
+ ,3)"
+Archiver-Version: Plexus Archiver
+

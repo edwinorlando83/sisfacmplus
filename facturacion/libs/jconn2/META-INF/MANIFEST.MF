@@ -1,0 +1,44 @@
+Manifest-Version: 1.0
+Main-Class: SybVersion
+Created-By: 1.2fcs (Sun Microsystems Inc.)
+
+Name: com/sybase/jdbc2/tds
+Specification-Title: "jConnect for JDBC 2.0" 
+Implementation-Version: "Build (25051)"
+Specification-Vendor: "Sybase, Inc."
+Specification-Version: "5.5"
+Implementation-Title: "com.sybase.jdbc2.tds" 
+Implementation-Vendor: "Sybase, Inc."
+
+Name: com/sybase/jdbc2/utils
+Specification-Title: "jConnect for JDBC 2.0" 
+Implementation-Version: "Build (25051)"
+Specification-Vendor: "Sybase, Inc."
+Specification-Version: "5.5"
+Implementation-Title: "com.sybase.jdbc2.utils" 
+Implementation-Vendor: "Sybase, Inc."
+
+Name: com/sybase/jdbc2/jdbc
+Specification-Title: "jConnect for JDBC 2.0" 
+Implementation-Version: "Build (25051)"
+Specification-Vendor: "Sybase, Inc."
+Specification-Version: "5.5"
+Implementation-Title: "com.sybase.jdbc2.jdbc" 
+Implementation-Vendor: "Sybase, Inc."
+
+Name: com/sybase/jdbc2/timedio
+Specification-Title: "jConnect for JDBC 2.0" 
+Implementation-Version: "Build (25051)"
+Specification-Vendor: "Sybase, Inc."
+Specification-Version: "5.5"
+Implementation-Title: "com.sybase.jdbc2.timedio" 
+Implementation-Vendor: "Sybase, Inc."
+
+Name: com/sybase/jdbcx/
+Specification-Title: "jConnect for JDBC 2.0" 
+Specification-Vendor: "Sybase, Inc."
+Implementation-Vendor: "Sybase, Inc."
+Specification-Version: "5.5"
+Implementation-Version: "Build (25051)"
+Implementation-Title: "com.sybase.jdbcx" 
+

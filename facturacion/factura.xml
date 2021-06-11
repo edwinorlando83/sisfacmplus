@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="1.0.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>DOMINGO MARTIRES COROZO MEDINA</razonSocial>
+    <nombreComercial>NOTARIA PRIMERA - ESMERALDAS - ELOY ALFARO VALDEZ</nombreComercial>
+    <ruc>0801285966001</ruc>
+    <claveAcceso>0505201601080128596600120030010000007100000072716</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>003</estab>
+    <ptoEmi>001</ptoEmi>
+    <secuencial>000000710</secuencial>
+    <dirMatriz>5 DE JUNIO Y 28 DE MAYO</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>05/05/2016</fechaEmision>
+    <obligadoContabilidad>NO</obligadoContabilidad>
+    <tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+    <razonSocialComprador>DARMILO TENORIO VALENCIA</razonSocialComprador>
+    <identificacionComprador>0800257552</identificacionComprador>
+    <direccionComprador>CALLE 5 DE JUNIO/ VALDEZ / LIMONES</direccionComprador>
+    <totalSinImpuestos>2.80</totalSinImpuestos>
+    <totalDescuento>0</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>2</codigoPorcentaje>
+        <descuentoAdicional>0</descuentoAdicional>
+        <baseImponible>2.80</baseImponible>
+        <valor>0.34</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0</propina>
+    <importeTotal>3.14</importeTotal>
+    <moneda>DOLAR</moneda>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <descripcion>(2) CERTIFICACIÓN DE DOCUMENTOS ORIGINALES</descripcion>
+      <cantidad>1</cantidad>
+      <precioUnitario>2.80</precioUnitario>
+      <descuento>0</descuento>
+      <precioTotalSinImpuesto>2.80</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>2</codigoPorcentaje>
+          <tarifa>12</tarifa>
+          <baseImponible>2.80</baseImponible>
+          <valor>0.34</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="Matrizador">KLEVER TULIO OREJUELA PAREDES</campoAdicional>
+    <campoAdicional nombre="NÚMERO DE LIBRO">20160802001D00065</campoAdicional>
+  </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature212666">
+<ds:SignedInfo Id="Signature-SignedInfo861882">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID537024" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature212666-SignedProperties573530">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>++iwyt/jtBv7XjyLU2xtf8Jyafk=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1367515">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>q7kVIOdVMTCzZYUMkYea3+iA1t0=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-841656" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>hihao065gZlusLCtwRORO3S4Naw=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue338079">
+A3/1MWXvcdbY6ZBr+Yp1/3BsQLnzJBhTJATlk9ON+c2WEWYgbGg5ujssZ2A3uWExuEIHyV8VswbP
+4UFV9O7tmLGs42/f8G5Wl5So4BhIP8WqQ94Ye22EB5djKg5V4eqiKJVrEhFuZjiHX0z8hmQem/JQ
+SeWwnTUG4BHUSzxVgy0YsKDDH+HLqfyCJoryGqD9C2N6Brd1dE8io12lnnJEslG/pDcPDXr4/dcx
+lZ7Yv5grBsSZyr2y6OxDANm+Pqc/LkR4wOlctYbKj9B06x7g8kZw0hj7i/K7BvcswWd5aYm/m6Ui
+oBONFN6GW4FCHlr9v8btTQKkhXqZbUy5tjaZDA==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1367515">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJETCCBvmgAwIBAgIETkZOJDANBgkqhkiG9w0BAQsFADCBoTELMAkGA1UEBhMCRUMxIjAgBgNV
+BAoTGUJBTkNPIENFTlRSQUwgREVMIEVDVUFET1IxNzA1BgNVBAsTLkVOVElEQUQgREUgQ0VSVElG
+SUNBQ0lPTiBERSBJTkZPUk1BQ0lPTi1FQ0lCQ0UxDjAMBgNVBAcTBVFVSVRPMSUwIwYDVQQDExxB
+QyBCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMB4XDTE2MDQyMTE5MDYwOVoXDTE4MDQxMTE1MjQ1
+N1owgbYxCzAJBgNVBAYTAkVDMSIwIAYDVQQKExlCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMTcw
+NQYDVQQLEy5FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04tRUNJQkNFMQ4w
+DAYDVQQHEwVRVUlUTzE6MBEGA1UEBRMKMDAwMDE1NTQwMjAlBgNVBAMTHkRPTUlOR08gTUFSVElS
+RVMgQ09ST1pPIE1FRElOQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAP0BZirauqXy
+b3egO5HxEFlw2v7C+LjuCLxWcNJaBfraElMYOGDVlOKm0naepiJ5kOsAguCB6IB7JCGP8FN5oR9r
+4/yCN6mjBWMZXUjUbb54iToYwubT8slUk79UDWOIX9fzBs80PZvrJkK0ImEXNIMthrP/Ic+W2bXK
+JlsHO2VBgdBs9c1Ik9co4QY0Smbkm8VtVNX6p6ftjVjYUYXcwuU+vkYpvu9XAcyR92OxhHtWoQRs
+X5LNQBQxiN8fUabaLIzwctbW5f5iYwYS5zdcnPFh6PwKEC+602D4yJ0N8BE87hypjWuQKeY4tOuT
+VqWVqokUSuiJk3bA5zIxsbmxs1cCAwEAAaOCBDgwggQ0MIGRBggrBgEFBQcBAQSBhDCBgTA+Bggr
+BgEFBQcwAYYyaHR0cDovL29jc3AuZWNpLmJjZS5lYy9lamJjYS9wdWJsaWN3ZWIvc3RhdHVzL29j
+c3AwPwYIKwYBBQUHMAGGM2h0dHA6Ly9vY3NwMS5lY2kuYmNlLmVjL2VqYmNhL3B1YmxpY3dlYi9z
+dGF0dXMvb2NzcDAaBgorBgEEAYKoOwMBBAwTCjA4MDEyODU5NjYwIAYKKwYBBAGCqDsDAgQSExBE
+T01JTkdPIE1BUlRJUkVTMBYGCisGAQQBgqg7AwMECBMGQ09ST1pPMBYGCisGAQQBgqg7AwQECBMG
+TUVESU5BMB8GCisGAQQBgqg7AwcEERMPQk9MSVZBUiBZIE1FSklBMBkGCisGAQQBgqg7AwgECxMJ
+MDYyNDUyMzQ5MBoGCisGAQQBgqg7AwkEDBMKRXNtZXJhbGRhczAXBgorBgEEAYKoOwMMBAkTB0VD
+VUFET1IwHQYKKwYBBAGCqDsDCwQPEw0wODAxMjg1OTY2MDAxMCAGCisGAQQBgqg7AzMEEhMQU09G
+VFdBUkUtQVJDSElWTzAoBgNVHREEITAfgR1mZXJuYW5kb3JAYWxxdWltaWFzb2Z0LmNvbS5lYzCC
+Ad8GA1UdHwSCAdYwggHSMIIBzqCCAcqgggHGhoHVbGRhcDovL2JjZXFsZGFwc3VicDEuYmNlLmVj
+L2NuPUNSTDMxNixjbj1BQyUyMEJBTkNPJTIwQ0VOVFJBTCUyMERFTCUyMEVDVUFET1IsbD1RVUlU
+TyxvdT1FTlRJREFEJTIwREUlMjBDRVJUSUZJQ0FDSU9OJTIwREUlMjBJTkZPUk1BQ0lPTi1FQ0lC
+Q0Usbz1CQU5DTyUyMENFTlRSQUwlMjBERUwlMjBFQ1VBRE9SLGM9RUM/Y2VydGlmaWNhdGVSZXZv
+Y2F0aW9uTGlzdD9iYXNlhjRodHRwOi8vd3d3LmVjaS5iY2UuZWMvQ1JML2VjaV9iY2VfZWNfY3Js
+ZmlsZWNvbWIuY3JspIG1MIGyMQswCQYDVQQGEwJFQzEiMCAGA1UEChMZQkFOQ08gQ0VOVFJBTCBE
+RUwgRUNVQURPUjE3MDUGA1UECxMuRU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFD
+SU9OLUVDSUJDRTEOMAwGA1UEBxMFUVVJVE8xJTAjBgNVBAMTHEFDIEJBTkNPIENFTlRSQUwgREVM
+IEVDVUFET1IxDzANBgNVBAMTBkNSTDMxNjALBgNVHQ8EBAMCBSAwHwYDVR0jBBgwFoAUGPnw++Yy
+HJlmOSrKi7JpfUknv84wHQYDVR0OBBYEFOe1PcWDNbRiMoUGH6tysz7J9bB9MAkGA1UdEwQCMAAw
+GQYJKoZIhvZ9B0EABAwwChsEVjguMQMCBBAwDQYJKoZIhvcNAQELBQADggIBAG589CmgP9DFQc4E
+WLe3DMvidtlyzm5aF0uMN7y2zn5rs4P36t14G9MzXPIPyg4wermIW7Gs/eVKFS5VPlfOeH+LFCDD
+hN1EzakOunwJ262lbYZ9h6St9UIhTWEXn66wMtuBYIFjkrIEkyRk0PXhHnlvAcwxKUBkxSJZdsyI
+rmZt2Y1U5GlmSBXCw7x6E/hvKItOzKHjCsLEA3rx2xphn7nXMewKYTpB/LIosIypErlI858ifFw1
+6lAv3WpDFV5vhuHUia5u2LBY1XPW8vN/I1keiLgvWnUkvdomul2ENlFtcC1A4KBMAcSfSwby5FqX
+efb4SWuli9wnrUj3Fp0W6NzHHJRK5iqfJiZHfIYqq1UzJIp5Ig3Ir/X4E8WW8odfhQHP9mjp0yNb
+wJuP8d6LfOGZTH97lLFuIwpXWyDMISBODoxbL9RLd20M88Vf63Mxc7Q4TS3BY3vi9b/+VzTy1muS
+rBSLXNwYqWXj/O3iEn0cRphNq7lSG4ada5dTA36DOQqGK/phtWBkDhabJriW6QROstOaLixAz3DY
+0O2zxXu6AkWBcRzWlLJ1+SApbcOs05u3ebcOw3aStyQlh0TsWomXHeaG2UNa77Ldh7Q3KLRBxVkN
+0rZBQAjG/kkUkMAF3QWi2/XjyfC81wbwzDXrUxIq0BV2EGFXiDdh07MJfpeL
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+/QFmKtq6pfJvd6A7kfEQWXDa/sL4uO4IvFZw0loF+toSUxg4YNWU4qbSdp6mInmQ6wCC4IHogHsk
+IY/wU3mhH2vj/II3qaMFYxldSNRtvniJOhjC5tPyyVSTv1QNY4hf1/MGzzQ9m+smQrQiYRc0gy2G
+s/8hz5bZtcomWwc7ZUGB0Gz1zUiT1yjhBjRKZuSbxW1U1fqnp+2NWNhRhdzC5T6+Rim+71cBzJH3
+Y7GEe1ahBGxfks1AFDGI3x9RptosjPBy1tbl/mJjBhLnN1yc8WHo/AoQL7rTYPjInQ3wETzuHKmN
+a5Ap5ji065NWpZWqiRRK6ImTdsDnMjGxubGzVw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature212666-Object879700"><etsi:QualifyingProperties Target="#Signature212666"><etsi:SignedProperties Id="Signature212666-SignedProperties573530"><etsi:SignedSignatureProperties><etsi:SigningTime>2016-05-05T21:32:52-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>Ze9cAfUSus8wbmYQ559CoQ2EpHw=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AC BANCO CENTRAL DEL ECUADOR,L=QUITO,OU=ENTIDAD DE CERTIFICACION DE INFORMACION-ECIBCE,O=BANCO CENTRAL DEL ECUADOR,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1313230372</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-841656"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>

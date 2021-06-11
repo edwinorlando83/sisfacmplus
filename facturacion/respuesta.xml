@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:respuestaSolicitud xmlns:ns2="http://ec.gob.sri.ws.recepcion">
+    <estado>DEVUELTA</estado>
+    <comprobantes>
+        <comprobante>
+            <claveAcceso>0806201601180333270700110010010000000600937227513</claveAcceso>
+            <mensajes>
+                <mensaje>
+                    <identificador>43</identificador>
+                    <mensaje>CLAVE ACCESO REGISTRADA</mensaje>
+                    <tipo>ERROR</tipo>
+                </mensaje>
+            </mensajes>
+        </comprobante>
+    </comprobantes>
+</ns2:respuestaSolicitud>
